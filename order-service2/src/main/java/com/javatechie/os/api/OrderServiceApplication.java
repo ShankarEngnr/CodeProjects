@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Author SankarGomathi1
+ * Author SankarGomathi12
  */
 @SpringBootApplication
 @EnableEurekaClient
