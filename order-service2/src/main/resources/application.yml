@@ -1,0 +1,25 @@
+server:
+  port: 9193
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:dcbapp
+    username: sa
+    password: sa
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+      
+  application:
+    name: ORDER-SERVICE
+    
+  zipkin:
+    base-url: http://localhost:9411/
+    
+logging:
+  file:
+    path:  C:/Users/USER/Desktop/logs/microservice.log
+    
+  
