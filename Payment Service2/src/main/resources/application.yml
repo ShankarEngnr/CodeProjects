@@ -1,0 +1,21 @@
+#server:
+#  port: 8082
+#
+#spring:
+#  application:
+#    name: payment-service
+#
+#feign:
+#  client:
+#    config:
+#      default:
+#        connectTimeout: 5000
+#        readTimeout: 5000
+#
+#otp:
+#  service:
+#    url: http://localhost:8081
+#
+#logging:
+#  level:
+#    org.springframework: INFO
