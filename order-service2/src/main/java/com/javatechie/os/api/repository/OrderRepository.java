@@ -6,4 +6,5 @@ import com.javatechie.os.api.entity.Order;
 
 public interface OrderRepository extends JpaRepository<Order, Integer> {
 
+	// Repository file
 }
